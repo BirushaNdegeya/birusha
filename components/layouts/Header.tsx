@@ -1,6 +1,6 @@
-import Hamburger from "../header/Hamburger";
-import Logo from "../header/Logo";
-import Navigation from "../header/Navigation";;
+import Hamburger from "../ui/Hamburger";
+import Logo from "../ui/Logo";
+import Navigation from "../ui/Navigation";;
 
 
 const Header = ({

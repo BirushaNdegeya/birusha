@@ -1,6 +1,6 @@
-import Logo from "../header/Logo";
+import Logo from "../ui/Logo";
 import menus from "../../data/menus";
-import SocialMediaItem from "../footer/socialMedia/Item";
+import SocialMediaItem from "../ui/Item";
 import socialmedias from "@/data/socialmedias";
 import Markdown from "react-markdown";
 

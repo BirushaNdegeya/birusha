@@ -1,4 +1,4 @@
-import Button from "@/components/shared/Button";
+import Button from "@/components/ui/Button";
 
 export default function IntroduceUser(): JSX.Element {
    return (
