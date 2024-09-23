@@ -1,17 +1,17 @@
-import Logo from "../ui/Logo";
+import Logo from "../logo";
 import menus from "../../data/menus";
-import SocialMediaItem from "../ui/Item";
+import SocialMediaItem from "../Item";
 import socialmedias from "@/data/socialmedias";
 import Markdown from "react-markdown";
+import { ModeToggle } from "../mode-toggle";
 
-
-const Footer = ({ hamburger }: IhamburgerProps): JSX.Element => {
+export default function Footer({ hamburger }: IhamburgerProps): JSX.Element {
    return (
       <footer
-         className={`bg-[#2B283A] glass-header ${hamburger ? "hidden" : ""
-            } bg-[#2B283A] z-20 text-white max-[770px]:p-4 w-full p-8`}
+         className={`border-t border-border ${hamburger ? "hidden" : ""
+            } bg-background z-20 text-foreground max-[770px]:p-4 w-full p-8`}
       >
-         <div className="flex items-center flex-col">
+         <div className="container flex items-center flex-col">
             <div className="flex w-full  items-center max-[770px]:flex-col max-[770px]:gap-10 justify-between">
                <span className="max-[770px]:self-start">
                   <Logo />
@@ -39,6 +39,10 @@ const Footer = ({ hamburger }: IhamburgerProps): JSX.Element => {
                   })}
                </ul>
             </div>
+            <ModeToggle />
+            <div className="bg-success m-4 p-4">
+               hello wrld
+            </div>
             <hr className="my-8 w-11/12" />
             <span className="block  font-light text-sm text-center mb-4">
                © {new Date(Date.now()).getFullYear()}{" "}
@@ -52,5 +56,3 @@ const Footer = ({ hamburger }: IhamburgerProps): JSX.Element => {
       </footer>
    );
 };
-
-export default Footer;

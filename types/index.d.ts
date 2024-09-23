@@ -1,8 +1,9 @@
 interface IprojectCard {
   title: string;
   description: string;
-  image: StaticImageData;
-  link: string;
+  picture: StaticImageData;
+  view: string;
+  github: string;
 }
 
 interface Itheme {

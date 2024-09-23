@@ -1,7 +1,8 @@
 "use client";
+import { Loading } from "@/components/loading";
 
-export default function LoadingPage () {
+export default function LoadingPage() {
    return (
-      <h1>Loading...</h1>
+      <Loading />
    );
 }

@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 export default function Logo(): JSX.Element {
    return (
-      <Link className="text-white" href="#home">
+      <Link href="#home">
          <p className="text-lg font-light">
-            <span className=" mr-1 bg-[#61DAFB] font-semibold text-lg py-1 px-2 rounded text-white">
+            <span className=" mr-1 bg-ring font-semibold text-lg py-1 px-2 rounded text-background">
                B
             </span>
             irusha
