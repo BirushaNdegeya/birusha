@@ -2,12 +2,12 @@
 import { useState } from "react";
 import Header from "@/components/layouts/header";
 import Footer from "@/components/layouts/footer";
-import Home1 from "@/components/main/Home";
-import About from "@/components/main/About";
-import Projects from "@/components/main/projects";
+import Home from "@/components/layouts/home";
+import About from "@/components/about";
+import Projects from "@/components/projects";
 
 
-export default function Home() {
+export default function HomePage() {
    const [hamburger, setHamburger] = useState<boolean>(false);
 
    return (
@@ -18,7 +18,7 @@ export default function Home() {
             className={`z-30  ${hamburger ? " max-[768px]:h-0" : "h-auto"
                } transition-all duration-500 w-full px-5  flex items-center flex-col overflow-auto no-scrollbar`}
          >
-            <Home1 />
+            <Home />
             <About />
             <Projects />
          </main>
