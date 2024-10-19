@@ -25,16 +25,14 @@
 //       </div>
 //    );
 // };
-import Main from "@/components/layouts/contents/main";
+import Main from "@/components/layouts/contents/main-container";
 import Footer from "@/components/layouts/contents/footer";
 import Home from "@/components/layouts/home";
+import MainContainer from "@/components/layouts/contents/main-container";
 export default function HomePage() {
   return (
-    <div className="h-screen flex flex-col">
-      <div className="flex-1">
-        <Home /> <Main />
-      </div>
-      <Footer />{" "}
-    </div>
+    <MainContainer>
+      <Home />
+    </MainContainer>
   );
 }

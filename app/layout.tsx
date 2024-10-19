@@ -33,7 +33,7 @@ export default async function RootLayout({
           disableTransitionOnChange
         >
           <NextIntlClientProvider messages={messages}>
-            <main className="flex flex-col h-screen">
+            <main className="h-screen flex flex-col overflow-y-auto">
               <div className="flex-1">{children}</div>
               <Footer />
             </main>
