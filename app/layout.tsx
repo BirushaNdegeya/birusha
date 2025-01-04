@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Head from "next/head";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
+import AdSense from "@/components/adsense";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -32,6 +33,7 @@ export default function RootLayout({
           href="/images/birusha.jpg"
           type="image/x-icon"
         />
+        <AdSense publisherId="ca-pub-1334124779360379" />
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
