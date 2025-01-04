@@ -1,23 +1,23 @@
 "use client";
-import { IaboutDetailsProps } from "@/type";
-import { collectAppConfig } from "next/dist/build/utils";
+// import { IaboutDetailsProps } from "@/type";
+// import { collectAppConfig } from "next/dist/build/utils";
 import Link from "next/link";
 import { useState } from "react";
 
-const details: IaboutDetailsProps[] = [
-  {
-    name: "Location : ",
-    description: "DRC, North-Kivu",
-  },
-  {
-    name: "Website : ",
-    description: "DRC, North-Kivu",
-  },
-  {
-    name: "Email : ",
-    description: "DRC, North-Kivu",
-  },
-];
+// const details: IaboutDetailsProps[] = [
+//   {
+//     name: "Location : ",
+//     description: "DRC, North-Kivu",
+//   },
+//   {
+//     name: "Website : ",
+//     description: "DRC, North-Kivu",
+//   },
+//   {
+//     name: "Email : ",
+//     description: "DRC, North-Kivu",
+//   },
+// ];
 
 export default function About() {
   const [collapse, setCollapse] = useState<boolean>(false);

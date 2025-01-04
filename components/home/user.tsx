@@ -1,6 +1,5 @@
 "use client";
-import { useEffect } from "react";
-import { useTheme } from "next-themes";
+// import { useEffect } from "react";
 import Image from "next/image";
 import {
   AiFillTwitterCircle,
@@ -35,9 +34,6 @@ export const SocialMedia: IsocialMediaProps[] = [
 ];
 
 export default function User() {
-  useEffect(() => {});
-  const { theme, setTheme } = useTheme();
-
   return (
     <section className="max-w-[1400px] h-[90vh] min-h-[500px] max-h-[800px] flex justify-center items-center flex-col gap-10 md:gap-5">
       <div className="flex justify-center z-10 items-center gap-5 flex-col">

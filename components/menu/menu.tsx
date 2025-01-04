@@ -1,14 +1,14 @@
 "use client";
 
 import { AiOutlineMail } from "react-icons/ai";
-import { RiCloseLine, RiMenu2Line, RiMoonClearFill } from "react-icons/ri";
+import { RiCloseLine, RiMenu2Line } from "react-icons/ri";
 import Link from "next/link";
 import Footer from "../footer/footer";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-import { BsSunFill } from "react-icons/bs";
+// import { BsSunFill } from "react-icons/bs";
 import { ImenuDataProps } from "@/type";
-import { ThemeProvider, useTheme } from "next-themes";
+// import { ThemeProvider, useTheme } from "next-themes";
 import Theme from "./theme";
 
 export const data: ImenuDataProps[] = [

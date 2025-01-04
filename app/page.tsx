@@ -1,12 +1,12 @@
 "use client";
-import Footer from "@/components/footer/footer";
+// import Footer from "@/components/footer/footer";
 import About from "@/components/home/about";
 import Posts from "@/components/home/posts";
 import Projects from "@/components/home/projects";
 import User from "@/components/home/user";
 import Menu from "@/components/menu/menu";
-import Partners from "@/components/parters/parters";
-import Image from "next/image";
+// import Partners from "@/components/parters/parters";
+// import Image from "next/image";
 
 export default function Home() {
   return (

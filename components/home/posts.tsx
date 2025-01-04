@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { IapiResponseProps } from "@/type";
 import Image from "next/image";
-import parse from "html-react-parser";
+// import parse from "html-react-parser";
 import Link from "next/link";
 
 const PostLoader = () => {
