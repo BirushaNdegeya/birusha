@@ -6,12 +6,12 @@ import { RxExternalLink } from "react-icons/rx";
 
 const projects: IprojectProps[] = [
   {
-    title: "Quiz App",
+    title: "Libraryware",
     description:
-      "The quiz app is an online platform that allows users to take quizzes about JavaScript. The app also provides a library of pre-made quizzes for users to take, with varying levels of difficulty and topics. The app can track user progress and provide feedback on correct and incorrect answers, as well as display a leaderboard to show the users scores. The app can be used for educational purposes, as a fun way to test knowledge, or as a marketing tool for businesses to engage with their audience.",
+      "Libraryware is an online platform that makes reading interactive and social. Users can access books, bookmark sections, and share their thoughts with friends, enhancing their reading experience through connection and collaboration. ",
     images: ["link1", "link2", "link3"],
-    githubLink: "https://github.com/JoeMakuta/Quiz_App/",
-    liveLink: "https://joemakuta.github.io/Quiz_App/",
+    githubLink: "https://github.com/sofia-goma/libraryware",
+    liveLink: "https://sofia-library.netlify.app/",
   },
 
   {
@@ -23,71 +23,71 @@ const projects: IprojectProps[] = [
     liveLink: "https://joemakuta.github.io/Programiz-Pro/",
   },
   {
-    title: "World Weather App",
+    title: "Emi",
     description:
-      "World Weather App is a professional and reliable application that provides accurate and up-to-date weather information for any location in the world. You can easily access city  weather and more with just a search.  Whether you are planning a trip, checking the weather for your daily commute, or simply want to stay informed, World Weather App is the best choice for you.",
+      "This web application was developed as part of an intensive workshop with Wikimedia RDC. Its main objective is to filter the available data on Wikimedia and identify the most searched articles in a given country.",
     images: ["link1", "link2", "link3"],
-    githubLink: "https://github.com/JoeMakuta/Weather_api",
-    liveLink: "https://weather-api-teal.vercel.app/",
+    githubLink: "https://github.com/kaliacad/mostvisitedarticle",
+    liveLink: "https://emingi.netlify.app/",
   },
 
-  {
-    title: "M-Tech App Backend",
-    description:
-      "The M-Tech app is an professional web service for storing and management purposes. It allows the user to store and manage everything about renting.",
-    images: ["link1", "link2", "link3"],
-    githubLink: "https://github.com/JoeMakuta/M-Tech",
-    liveLink: "",
-  },
+  // {
+  //   title: "M-Tech App Backend",
+  //   description:
+  //     "The M-Tech app is an professional web service for storing and management purposes. It allows the user to store and manage everything about renting.",
+  //   images: ["link1", "link2", "link3"],
+  //   githubLink: "https://github.com/JoeMakuta/M-Tech",
+  //   liveLink: "",
+  // },
 
-  {
-    title: "Attendance App",
-    description:
-      "An application that records attendances by scanning Qr Codes, and displays a customisable detail report for students and teachers.",
-    images: ["link1", "link2", "link3"],
-    githubLink: "https://github.com/JoeMakuta/attendancy-front",
-    liveLink: "https://attendancy-front.vercel.app/",
-  },
+  // {
+  //   title: "Attendance App",
+  //   description:
+  //     "An application that records attendances by scanning Qr Codes, and displays a customisable detail report for students and teachers.",
+  //   images: ["link1", "link2", "link3"],
+  //   githubLink: "https://github.com/JoeMakuta/attendancy-front",
+  //   liveLink: "https://attendancy-front.vercel.app/",
+  // },
 
-  {
-    title: "JobberYou App",
-    description:
-      "A job board application that lets users easily search, apply and post job opportunities,",
-    images: ["link1", "link2", "link3"],
-    githubLink: "https://github.com/JoeMakuta/Jobber_You_client",
-    liveLink: "https://jobber-you-client.vercel.app/",
-  },
+  // {
+  //   title: "JobberYou App",
+  //   description:
+  //     "A job board application that lets users easily search, apply and post job opportunities,",
+  //   images: ["link1", "link2", "link3"],
+  //   githubLink: "https://github.com/JoeMakuta/Jobber_You_client",
+  //   liveLink: "https://jobber-you-client.vercel.app/",
+  // },
 
-  {
-    title: "URL Shortener App",
-    description:
-      "This is a web application that help you make long URLs short.",
-    images: ["link1", "link2", "link3"],
-    githubLink: "https://github.com/JoeMakuta/UrlShortner",
-    liveLink: "https://urlshortner-6dd0.onrender.com/",
-  },
+  // {
+  //   title: "URL Shortener App",
+  //   description:
+  //     "This is a web application that help you make long URLs short.",
+  //   images: ["link1", "link2", "link3"],
+  //   githubLink: "https://github.com/JoeMakuta/UrlShortner",
+  //   liveLink: "https://urlshortner-6dd0.onrender.com/",
+  // },
 
-  {
-    title: "CarDocBox",
-    description:
-      "An application that helps the traffic police control car documents by scanning printed QR codes. Users save, keep track of  their car documents",
-    images: ["link1", "link2", "link3"],
-    githubLink: "https://github.com/JoeMakuta/Car-Doc-Box-Frontend",
-    liveLink: "https://car-document-control.vercel.app/",
-  },
+  // {
+  //   title: "CarDocBox",
+  //   description:
+  //     "An application that helps the traffic police control car documents by scanning printed QR codes. Users save, keep track of  their car documents",
+  //   images: ["link1", "link2", "link3"],
+  //   githubLink: "https://github.com/JoeMakuta/Car-Doc-Box-Frontend",
+  //   liveLink: "https://car-document-control.vercel.app/",
+  // },
 
-  {
-    title: "ChatApp",
-    description:
-      "A real time chat application that unables users to chat with others",
-    images: ["link1", "link2", "link3"],
-    githubLink: "https://github.com/JoeMakuta/Express-Chat-App-Frontend",
-    liveLink: "https://express-chat-app-frontend.vercel.app/",
-  },
+  // {
+  //   title: "ChatApp",
+  //   description:
+  //     "A real time chat application that unables users to chat with others",
+  //   images: ["link1", "link2", "link3"],
+  //   githubLink: "https://github.com/JoeMakuta/Express-Chat-App-Frontend",
+  //   liveLink: "https://express-chat-app-frontend.vercel.app/",
+  // },
 ];
 
 export default function Projects() {
-  const [showMore, setShowMore] = useState<boolean>(false);
+  const [showMore] = useState<boolean>(false);
   return (
     <section className="bg-background w-screen flex justify-center items-center">
       <div className=" flex justify-between gap-6 max-w-[1400px] flex-wrap w-[98vw]  p-6 border-t-[1px] py-10 border-t-border">
@@ -134,14 +134,14 @@ export default function Projects() {
                 </div>
               );
             })}
-          <button
+          {/* <button
             className="font-bold self-end"
             onClick={() => {
               setShowMore((e) => !e);
             }}
           >
             {showMore ? "Show less" : "Show more"}
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import Link from "next/link";
 import { IsocialMediaProps } from "@/type";
+import { Button } from "../ui/button";
 
 export const SocialMedia: IsocialMediaProps[] = [
   {
@@ -47,17 +48,16 @@ export default function User() {
           />
         </div>
         <p>
-          Hello, {"I am Birusha!"} <span className="text-2xl ">👋</span>
+          Hello, {"I am Birusha NDEGEYA!"} <span className="text-2xl ">👋</span>
         </p>
       </div>
       <h1 className="text-[2rem] md:text-[2.5rem] w-[85vw] lg:w-[45vw] bg-clip-text text-foreground leading-tight text-center font-bold">
-        In order to be irreplaceable, one must always be different.
+        To thrive in the online space, one must value creativity and vision.
       </h1>
-      <a
-        href="#projects"
-        className="transition-all animate-text w-[10em] md:w-[15em] flex justify-center items-center gap-2 h-14 rounded-md hover:scale-105 "
-      >
-        <p>Latest Projects</p>
+      <a href="#projects">
+        <Button title="Latest Projects" size="lg">
+          Latest Projects
+        </Button>
       </a>
       <div className="flex gap-5 absolute bottom-1 md:bottom-10">
         {SocialMedia.map((elt, index) => {

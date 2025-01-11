@@ -1,14 +1,14 @@
 import { AiOutlineMail } from "react-icons/ai";
 import { SocialMedia } from "../home/user";
 import Link from "next/link";
-import { Button } from "../ui/button";
-import { Input } from "../ui/input";
+// import { Button } from "../ui/button";
+// import { Input } from "../ui/input";
 
 export default function Footer() {
   return (
     <footer className="bg-background text-foreground w-[100vw] bottom-0">
       <div className="container px-6 py-12 mx-auto">
-        <div className="flex justify-center items-center ">
+        {/* <div className="flex justify-center items-center ">
           <div className="sm:col-span-2">
             <h1 className="max-w-lg text-xl font-semibold tracking-tight xl:text-2xl">
               Subscribe my newsletter to stay update.
@@ -19,7 +19,7 @@ export default function Footer() {
               <Button className="md:w-auto md:mx-4">Subscribe</Button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <hr className="my-6 border-border md:my-8" />
 

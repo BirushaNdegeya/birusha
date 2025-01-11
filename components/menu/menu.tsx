@@ -14,15 +14,15 @@ import Theme from "./theme";
 export const data: ImenuDataProps[] = [
   {
     name: "Blog",
-    link: "https://medium.com/@makutajosue",
+    link: "https://dev.to/birusha",
   },
   {
     name: "GitHub",
-    link: "http://github.com/JoeMakuta",
+    link: "https://github.com/BirushaNdegeya",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/josuemakuta/",
+    link: "https://www.linkedin.com/in/birusha-ndegeya-243b032a9",
   },
 ];
 

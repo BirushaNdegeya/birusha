@@ -30,24 +30,24 @@ export default function About() {
             <div className="font-light  flex flex-col gap-4 ">
               <p>
                 {
-                  "My name is Josué Makuta, I am a full-stack web developer. I have always been passionate about technology and how it can be used to solve real-world problems. That's why I decided to pursue a career in web development."
+                  "My name is Birusha Ndegeya, and I am a passionate full-stack web developer. My journey in technology is driven by a commitment to using innovative solutions to address real-world challenges."
                 }
               </p>
               {collapse && (
                 <div className=" flex flex-col gap-4  ">
                   <p>
                     {
-                      "I have experience working with various programming languages such as HTML, CSS, and JavaScript. I am also proficient in using popular web development frameworks like React, Next.js, and ExpressJs.My expertise lies in developing responsive and user-friendly websites that are optimized for performance and search engines."
+                      "With expertise in modern web development technologies like React, Next.js, TypeScript, PostgreSQL, and Node.js, I specialize in building responsive, user-friendly, and high-performance applications. My experience also includes participating in open-source projects and impactful events like Wishathon 2024."
                     }
                   </p>
                   <p>
                     {
-                      "I am also skilled in building robust backend systems that can handle large amounts of data and traffic. Apart from technical skills, I believe that communication is key to successful project delivery. That's why I always strive to maintain clear communication with my clients throughout the development process to ensure that their needs are met. When I'm not coding or learning new technologies, you can find me reading books or playing musics."
+                      "In addition to my technical skills, I value effective communication and collaboration, ensuring that every project I undertake aligns with client needs and expectations. Beyond coding, I enjoy exploring new technologies, contributing to open-source communities, and participating in discussions on digital innovation."
                     }
                   </p>
                   <p>
                     {
-                      "Thank you for taking the time to read my about page. If you have any questions or would like to discuss a project, feel free to contact me!"
+                      "Thank you for visiting my page. If you’re interested in collaborating or learning more about my work, feel free to reach out!"
                     }
                   </p>
                 </div>
@@ -73,22 +73,22 @@ export default function About() {
             <div className=" flex flex-col gap-2 ">
               <p>WebSite : </p>
               <Link href="#" className=" text-blue-400  ">
-                🌍 Josue Makuta
+                🌍 Birusha Ndegeya
               </Link>
             </div>
             <div className=" flex flex-col gap-2 ">
               <p>Email : </p>
               <Link
-                href="mailto:makutajosue@gmail.com"
+                href="mailto:birushandegeya@gmail.com"
                 className="text-primary"
               >
-                ✉️ makutajosue@gmail.com
+                ✉️ birushandegeya@gmail.com
               </Link>
             </div>
             <div id="projects" className=" flex flex-col gap-2 ">
               <p>Phone : </p>
-              <Link href="tel:+243972383759" className="  ">
-                📞 +243 972 383 759
+              <Link href="tel:+243971616131" className="  ">
+                📞 +243 971 616 131
               </Link>
             </div>
           </div>

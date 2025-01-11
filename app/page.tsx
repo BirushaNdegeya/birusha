@@ -1,7 +1,7 @@
 "use client";
 // import Footer from "@/components/footer/footer";
 import About from "@/components/home/about";
-import Posts from "@/components/home/posts";
+// import Posts from "@/components/home/posts";
 import Projects from "@/components/home/projects";
 import User from "@/components/home/user";
 import Menu from "@/components/menu/menu";
@@ -15,7 +15,7 @@ export default function Home() {
         <User />
         <About />
         <Projects />
-        <Posts />
+        {/* <Posts /> */}
       </main>
     </Menu>
   );
