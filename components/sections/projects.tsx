@@ -37,7 +37,7 @@ const CARDS = [
 
 export function Projects() {
   return (
-    <div className="py-4">
+    <div className="py-4" id="projects">
       <h2 className="text-2xl font-sans font-bold">My projects</h2>
       <p className="mb-4 text-muted-foreground">
         The projects I've been working on since 2019.

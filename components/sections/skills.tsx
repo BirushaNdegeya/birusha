@@ -8,40 +8,59 @@ import {
 export function Skills() {
   const AVATARS = [
     {
-      src: "/icons/html5.svg",
+      src: "/icons/html.svg",
       fallback: "HTML",
       tooltip: "HTML (Hypertext Markup Language)",
-      invertDark: false,
     },
     {
-      src: "/icons/css3.svg",
+      src: "/icons/css.svg",
       fallback: "CSS",
       tooltip: "CSS (Cascading Style Sheet)",
-      invertDark: false,
     },
     {
-      src: "/icons/square-js.svg",
+      src: "/icons/javascript.svg",
       fallback: "JS",
       tooltip: "JavaScript",
-      invertDark: true, // JavaScript icon might need inversion
+    },
+    {
+      src: "/icons/typescript.svg",
+      fallback: "TS",
+      tooltip: "TypeScript",
+    },
+    {
+      src: "/icons/node.svg",
+      fallback: "Node",
+      tooltip: "Node JS",
     },
     {
       src: "/icons/react.svg",
-      fallback: "REACT",
-      tooltip: "ReactJs",
-      invertDark: false,
+      fallback: "React",
+      tooltip: "React JS",
+    },
+    {
+      src: "/icons/angular.svg",
+      fallback: "Angular",
+      tooltip: "Angular JS",
+    },
+    {
+      src: "/icons/git.svg",
+      fallback: "Git",
+      tooltip: "Git",
     },
     {
       src: "/icons/github.svg",
       fallback: "GitHub",
       tooltip: "GitHub",
-      invertDark: true, // GitHub logo is black in light mode
     },
     {
-      src: "/icons/typescript.svg", // Consider adding TypeScript
-      fallback: "TS",
-      tooltip: "TypeScript",
-      invertDark: false,
+      src: "/icons/gitlab.svg",
+      fallback: "GitLab",
+      tooltip: "GitLab",
+    },
+    {
+      src: "/icons/linux.svg",
+      fallback: "Linux",
+      tooltip: "Linux distribution",
     },
   ];
 
@@ -51,20 +70,18 @@ export function Skills() {
       <p className="mb-4 text-muted-foreground">
         The tools and technologies I use to bring ideas to life.
       </p>
-      <Card className="bg-transparent">
-        <CardContent className="flex items-center justify-center p-6">
-          <AvatarGroup className="h-24 -space-x-3">
+      <Card className="p-0 m-0">
+        <CardContent className="flex items-center justify-center p-4">
+          <AvatarGroup className="h-16 -space-x-3">
             {AVATARS.map((avatar, index) => (
               <Avatar
                 key={index}
-                className="size-24 border-2 border-muted-foreground/20 dark:border-muted-foreground/40 hover:scale-110 transition-transform duration-300"
+                className="size-16 border-2 border-muted-foreground/20 hover:scale-105 transition-transform duration-300"
               >
                 <div className="relative size-full">
                   <AvatarImage
                     src={avatar.src}
-                    className={`${
-                      avatar.invertDark ? "dark:invert" : ""
-                    } p-2 bg-white dark:bg-muted rounded-full`}
+                    className={"p-2 bg-white rounded-full"}
                   />
                   <AvatarFallback className="bg-muted">
                     {avatar.fallback}

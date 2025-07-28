@@ -16,7 +16,9 @@ export function Header() {
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background border-b">
       <div className="max-w-3xl mx-auto p-4">
         <div className="flex justify-between items-center">
-          <Button variant="outline">Birusha</Button>
+          <Link href="/">
+            <Button variant="outline">Birusha</Button>
+          </Link>
           <div className="flex gap-4 items-center">
             {navLinks.map((link) => (
               <Link
