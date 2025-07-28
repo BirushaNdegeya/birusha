@@ -32,9 +32,11 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
-            <Button size="icon" variant="ghost">
-              <GithubIcon className="w-5 h-5" />
-            </Button>
+            <a href="https://github.com/BirushaNdegeya" target="_blank">
+              <Button size="icon" variant="ghost">
+                <GithubIcon className="w-5 h-5" />
+              </Button>
+            </a>
           </div>
         </div>
       </div>

@@ -10,11 +10,34 @@ export function Footer() {
           <span>© {new Date().getFullYear()}</span> | Birusha
         </p>
         <div className="flex items-center gap-4">
-          <PhoneCall />
-          <Mail />
-          <Calendar />
-          <Github />
-          <Linkedin />
+          <a
+            href="tel:+243971616131"
+            target="_blank"
+            className="hover:text-blue-500 transition-colors"
+          >
+            <PhoneCall size={16} />
+          </a>
+          <a
+            href="mailto:birushandegeya@gmail.com"
+            target="_blank"
+            className="hover:text-blue-500 transition-colors"
+          >
+            <Mail size={16} />
+          </a>
+          <a
+            href="https://calendly.com/birushandegeya/30min"
+            target="_blank"
+            className="hover:text-blue-500 transition-colors"
+          >
+            <Calendar size={16} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/birusha-ndegeya-243b032a9"
+            target="_blank"
+            className="hover:text-blue-500 transition-colors"
+          >
+            <Linkedin size={16} />
+          </a>
           <ModeToggle />
         </div>
       </div>
