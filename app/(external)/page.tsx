@@ -20,9 +20,13 @@ export default function Home() {
             <p>
               I'm seriously into writing pretty code, crafting exceptional UX,
               and using accessibility best practices.{" "}
-              <span className="hover:text-blue-500 hover:cursor-pointer transition-colors">
+              <a
+                href="/birusha-ndegeya-resume.pdf"
+                target="_blank"
+                className="hover:text-blue-500 hover:cursor-pointer transition-colors"
+              >
                 my resume →
-              </span>{" "}
+              </a>{" "}
             </p>
           </div>
           <SpringElement>
