@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Skills } from "@/components/sections/skills";
 import { SpringElement } from "@/components/animate-ui/components/spring-element";
+import { Projects } from "@/components/sections/projects";
 
 export default function Home() {
   return (
@@ -51,6 +52,7 @@ export default function Home() {
         </div>
       </div>
       <Skills />
+      <Projects />
     </>
   );
 }

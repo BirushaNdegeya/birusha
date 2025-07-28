@@ -2,6 +2,7 @@ import { ModeToggle } from "@/components/common/mode-toggle";
 import { Calendar, Github, Linkedin, Mail, PhoneCall } from "lucide-react";
 
 export function Footer() {
+  // https://calendly.com/birushandegeya/30min -> calendy link
   return (
     <footer className="border-t py-4">
       <div className="flex items-center justify-between">

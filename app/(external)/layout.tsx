@@ -13,7 +13,7 @@ export default function ExternalLayout({
       <Header />
       <main className="relative flex-1">
         {/* Fond hexagone (en dessous du contenu) */}
-        <HexagonBackground className="absolute inset-0  rounded-xl" />
+        <HexagonBackground className="absolute inset-0 h-full w-full rounded-xl" />
         {/* Contenu interactif */}
         <div className="relative z-10 h-full max-w-3xl mx-auto bg-transparent p-4">
           <div className="py-4">{children}</div>
