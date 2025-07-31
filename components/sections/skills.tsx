@@ -81,7 +81,7 @@ export function Skills() {
                 <div className="relative size-full">
                   <AvatarImage
                     src={avatar.src}
-                    className={"p-2 bg-white rounded-full"}
+                    className={"p-2 bg-white dark:bg-card-foreground rounded-full"}
                   />
                   <AvatarFallback className="bg-muted">
                     {avatar.fallback}

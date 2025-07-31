@@ -6,6 +6,7 @@ import { Skills } from "@/components/sections/skills";
 import { SpringElement } from "@/components/animate-ui/components/spring-element";
 import { Projects } from "@/components/sections/projects";
 import { Badge } from "@/components/ui/badge";
+import { TypingText } from "@/components/animate-ui/text/typing";
 
 export default function Home() {
   return (
@@ -16,7 +17,11 @@ export default function Home() {
         <div className="flex justify-between mt-4 gap-8">
           <div className="space-y-4">
             <h1 className="text-2xl font-sans font-bold">Hello! 👋🏻</h1>
-            <p>I'm Birusha Ndegeya, I am a Frontend NextJS developer.</p>
+            {/* <p>I'm Birusha Ndegeya, I am a Frontend NextJS developer.</p> */}
+            <TypingText
+              text="I'm Birusha Ndegeya, I am a Frontend NextJS developer."
+              cursor
+            />
             <p>
               I'm seriously into writing pretty code, crafting exceptional UX,
               and using accessibility best practices.{" "}
