@@ -7,7 +7,7 @@ const CARDS = [
     value: "1",
     icon: School,
     title: "Tantor Learning",
-    url: "https://tantor-learning.vercel.app/",
+    url: "https://tantorlearning.com/",
     description:
       "E-Learning application for certified Online Courses Available Across France.",
   },
